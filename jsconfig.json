@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "moduleResolution": "bundler",
+    "target": "esnext",
+    "module": "esnext",
     "paths": {
       "@assets/*": ["./frontend/src/assets/*"],
       "@components/*": ["./frontend/src/components/*"],

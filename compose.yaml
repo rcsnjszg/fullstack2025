@@ -106,6 +106,7 @@ services:
     volumes:
       - ./docs/content:/app/content:ro
       - ./docs/public:/app/public:ro
+      - /app/node_modules
       - ./.env:/app/.env:ro
     networks:
       - fullstack
